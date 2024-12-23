@@ -15,6 +15,7 @@ if (!blockName) {
 
 const blockDir = path.resolve("src/blocks", blockName);
 
+// TODO: move to helper function
 const removeBlock = () => {
 	if (!fs.existsSync(blockDir)) {
 		console.error(`Error: Block directory not found: ${blockDir}`);

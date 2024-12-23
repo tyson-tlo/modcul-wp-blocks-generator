@@ -25,18 +25,18 @@ const updateGeneratedRenderFunctions = () => {
 				console.warn(`Warning: PHP file not found for block: ${block}`);
 				return null;
 			})
-			.filter(Boolean) // Remove null entries
+			.filter(Boolean)
 			.join("\n");
 
 		const content = `<?php
-/**
- * Auto-generated file for registering render functions.
- *
- * @package ModculDigitalBlocks
- */
+			/**
+			 * Auto-generated file for registering render functions.
+			 *
+			 * @package ModculDigitalBlocks
+			 */
 
-${functions}
-`;
+			${functions}
+			`;
 
 		writeFile(renderFunctionsPath, content);
 		console.log(

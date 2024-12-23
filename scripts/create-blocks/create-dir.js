@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-// Helper function to create directories
+
 const fs = require("fs");
 
 const createDir = (dirPath) => {
