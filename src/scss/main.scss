@@ -1,0 +1,19 @@
+$break-xs: 480px;
+$break-sm: 768px;
+$break-md: 1024px;
+$break-lg: 1280px;
+$break-xl: 1440px;
+
+$breakpoints: (
+	xs: $break-xs,
+	sm: $break-sm,
+	md: $break-md,
+	lg: $break-lg,
+	xl: $break-xl,
+);
+
+$spacing: 4px;
+
+.sd-hello-world {
+	color: red;
+}

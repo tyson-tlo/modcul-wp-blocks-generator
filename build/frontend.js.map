@@ -1,0 +1,1 @@
+{"version":3,"file":"frontend.js","mappings":";;;;AAAAA,QAAQ,CAACC,gBAAgB,CAAC,kBAAkB,EAAE,MAAM;EACnD;AAAA,CACA,CAAC,C","sources":["webpack://modcul-digital-blocks/./src/frontend.js"],"sourcesContent":["document.addEventListener(\"DOMContentLoaded\", () => {\n\t// Add some stuff here please\n});\n"],"names":["document","addEventListener"],"sourceRoot":""}
