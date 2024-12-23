@@ -44,7 +44,7 @@ function enqueue_modcul_digital_blocks_assets()
     $build_dir = plugin_dir_path(__FILE__) . 'build/';
     $build_url = plugin_dir_url(__FILE__) . 'build/';
 
-    $asset_file = include($build_dir . 'index.asset.php'); // Match your actual file name
+    $asset_file = include($build_dir . 'index.asset.php');
 
     wp_enqueue_script(
         'modcul-digital-blocks-editor',
